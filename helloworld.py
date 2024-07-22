@@ -41,3 +41,14 @@ while r >= 0:
     print(r)
     r = r - 1
 print("This is the end")
+
+#Funktionen
+def funk(r):
+    while r >= 0:
+        print(r)
+        r = r - 1
+    print("This is the end")
+#Funktion aufrufen
+funk(10)
+#Funktionen sind variabel und können mehrfach ausgeführt werden. Beispiei:
+funk(15)
