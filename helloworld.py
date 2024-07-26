@@ -52,3 +52,18 @@ def funk(r):
 funk(10)
 #Funktionen sind variabel und können mehrfach ausgeführt werden. Beispiei:
 funk(15)
+
+# Übungsaufgabe
+# Geg: Temperatur in C
+# Ges: Temperatur in K
+# K = C + 273.15
+# 0K = 273.15C
+
+def UR(c):
+    k=c+273.15 
+    return(k)
+
+print(UR(273.15))
+
+x = input("Gib x ein")
+print(x)
